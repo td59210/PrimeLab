@@ -58,7 +58,7 @@ public:
 		cout << " Expected: []\n";
 
 		vector<int> test3 = factor.primeFactors(9);
-		cout << "Test 3 : 9 ";
+		cout << "Test 3: 9 ";
 		printVec(test3);
 		cout << " Expected: [3, 3]\n";
 
@@ -76,6 +76,11 @@ public:
 		cout << "Test 5: 24 ";
 		printVec(test6);
 		cout << " Expected: [2, 3]\n";
+
+		vector<int> test7 = factor.primeFactors(13);
+		cout << "Test 5: 13 ";
+		printVec(test7);
+		cout << " Expected: [13]\n";
 
 		cout << "Tests Complete.\n\n";
 	}
